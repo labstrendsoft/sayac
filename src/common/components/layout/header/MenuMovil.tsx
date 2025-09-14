@@ -70,20 +70,20 @@ export function MobileMenu() {
 							</li>
 							<li>
 								<Link
-									href="/servicios"
+									href="/productos"
 									className="flex items-center gap-3 rounded-lg p-3 uppercase transition-colors"
 									onClick={() => setOpen(false)}
 								>
-									<span className="text-sm font-medium">Lo que Hacemos</span>
+									<span className="text-sm font-medium">Productos</span>
 								</Link>
 							</li>
 							<li>
 								<Link
-									href="/trabajos"
+									href="/noticias"
 									className="flex items-center gap-3 rounded-lg p-3 uppercase transition-colors"
 									onClick={() => setOpen(false)}
 								>
-									<span className="text-sm font-medium">Trabajos</span>
+									<span className="text-sm font-medium">Noticias</span>
 								</Link>
 							</li>
 							<li>
@@ -92,7 +92,7 @@ export function MobileMenu() {
 									className="flex items-center gap-3 rounded-lg p-3 uppercase transition-colors"
 									onClick={() => setOpen(false)}
 								>
-									<span className="text-sm font-medium">Contacto</span>
+									<span className="text-sm font-medium">Contáctanos</span>
 								</Link>
 							</li>
 							<a
