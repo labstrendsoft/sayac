@@ -24,7 +24,7 @@ export const AboutView = () => {
 
 							<p className="text-balance max-w-[500px] text-sm md:text-base font-light max-lg:text-center">
 								Grupo SAYAQ S.A.C. Está conformada por un equipo de
-								profesionales con más de 10 años de experiencia. Nos
+								profesionales con más de 5 años de experiencia. Nos
 								especializamos en la comercialización, representación y
 								distribución de tuberías de PVC de alta calidad y
 								reconocimiento; que cuentan con todas las distintas normas

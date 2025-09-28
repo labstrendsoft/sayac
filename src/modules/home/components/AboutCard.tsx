@@ -1,10 +1,10 @@
 import { Container } from '@/common/components/customize/Container';
-import { Button } from '@/common/components/shadcnui/button';
 import uno from '@public/home/1.webp';
 import dos from '@public/home/2.webp';
 import tres from '@public/home/3.webp';
 import cuatro from '@public/home/4.webp';
 import Image from 'next/image';
+import Link from 'next/link';
 const AboutCard = () => {
 	return (
 		<Container
@@ -14,7 +14,7 @@ const AboutCard = () => {
 			{/* Columna izquierda */}
 			<div className=" text-black px-12 py-16 flex flex-col justify-center ">
 				<span className="text-xs uppercase tracking-wide  font-light">
-					Sobre nosotros
+					Nosotros
 				</span>
 				<h2 className="text-2xl  md:text-[32px] text-[#030107] font-bold mb-2">
 					SOMOS SAYAQ
@@ -24,12 +24,15 @@ const AboutCard = () => {
 					más de 5 años de experiencia. Nos especializamos en la
 					comercialización, representación y distribución de tuberías de PVC de
 					alta calidad y reconocimiento; que cuentan con todas las distintas
-					normas técnicas vigentes. Lo que brinda seguridad y confiabilidad en
+					normas técnicas vigentes. Lo que brinda seguridad y cofiabilidad en
 					los diferentes sectores donde se requieran.
 				</p>
-				<Button className="bg-black text-white px-10 rounded-xs py-2.5 w-fit">
+				<Link
+					href="/nosotros"
+					className="bg-black text-white px-10 rounded-xs py-2.5 w-fit"
+				>
 					SABER MÁS
-				</Button>
+				</Link>
 			</div>
 
 			{/* Columna derecha */}
@@ -74,7 +77,7 @@ const AboutCard = () => {
 
 					<div>
 						<h3 className="text-2xl lg:text-[32px] text-[#030107] font-bold">
-							20,000+
+							600,000+{' '}
 						</h3>
 						<p className="text-sm text-gray-700 font-light">
 							Metros de tuberías distribuidas.
