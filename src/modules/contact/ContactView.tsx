@@ -66,7 +66,7 @@ export const ContactView = () => {
 									className="w-5 object-cover lg:w-7"
 								/>
 								<span className="text-sm">
-									Huerta Niveria Mz. N Lt 6 Lurigancho
+									Huerta Niveria Mz. M Lt 6 Lurigancho
 								</span>
 							</div>
 						</div>
