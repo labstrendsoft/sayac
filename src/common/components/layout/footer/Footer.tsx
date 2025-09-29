@@ -10,7 +10,7 @@ export default function Footer() {
 			<div className="max-w-[1200px] mx-auto">
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 					{/* Primera columna */}
-					<div className="hidden md:flex items-start gap-20  text-sm">
+					<div className="hidden md:flex items-start gap-10 lg:gap-20  text-sm">
 						<div className="space-y-4">
 							<ul className="space-y-3">
 								<li>
