@@ -94,7 +94,7 @@ export default function Footer() {
 					</div>
 
 					{/* Cuarta columna - Logo y redes sociales */}
-					<div className="flex items-center gap-6 w-full justify-center">
+					<div className="flex lg:flex-row flex-col items-center gap-6 w-full justify-center">
 						<Image
 							src={logo_aislamiento}
 							alt="logo de trendacademy"
