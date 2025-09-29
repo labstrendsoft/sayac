@@ -30,7 +30,7 @@ const ProductView = ({ product }: ProductProps) => {
 							key={i}
 							src={img}
 							alt={`${product.title} ${i + 1}`}
-							className="object-cover w-auto h-auto"
+							className="object-cover w-auto h-auto max-sm:mx-auto"
 						/>
 					))}
 				</div>
