@@ -46,7 +46,7 @@ export const DEFAULT_AUTHORS = [
 // Fallbacks por página
 
 export const DEFAULT_SEO_HOME = {
-	title: 'Inicio | Grupo SAYAQ',
+	title: 'Grupo SAYAQ',
 	description: DEFAULT_DESCRIPTION,
 	keywords: DEFAULT_KEYWORDS,
 };
