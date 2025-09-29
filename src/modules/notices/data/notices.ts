@@ -15,7 +15,7 @@ export type Notice = {
 
 export const notices: Notice[] = [
 	{
-		slug: 'ecoandina-innovacion',
+		slug: 'sayaq-innovacion',
 		title:
 			'Innovación en tuberías de PVC: una solución sostenible para minería, construcción e industria',
 		description:
