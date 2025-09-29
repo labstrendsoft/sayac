@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import blog from '@public/notices/blog.png';
 import { Container } from '@/common/components/customize/Container';
 import { Notice } from './data/notices';
 
