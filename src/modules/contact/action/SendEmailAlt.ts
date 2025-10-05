@@ -62,7 +62,7 @@ export async function sendEmail(data: ContactEmailData) {
 		});
 
 		const htmlContent = `
-      <h2>Nuevo mensaje desde formulario de contacto</h2>
+      <h2>Nuevo mensaje desde el formulario de contacto del sitio web</h2>
       <p><strong>Nombre:</strong> ${nombre}</p>
       <p><strong>Empresa:</strong> ${empresa}</p>
       <p><strong>Celular:</strong> ${celular}</p>
@@ -79,7 +79,7 @@ export async function sendEmail(data: ContactEmailData) {
 			to: 'administracion@gruposayaq.com',
 			subject: `Formulario de contacto: ${titulo}`,
 			text: `
-Nuevo mensaje desde formulario de contacto
+Nuevo mensaje desde el formulario de contacto del sitio web
 
 Nombre: ${nombre}
 Empresa: ${empresa}
