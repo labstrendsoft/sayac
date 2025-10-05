@@ -14,9 +14,9 @@ import {
 	FormControl,
 	FormMessage,
 } from '@/common/components/shadcnui/form';
-import { sendEmail } from '../action/sendEmail';
 import { LoaderCircle } from 'lucide-react';
 import { RecaptchaWrapper } from './RecaptchaWrapper';
+import { sendEmail } from '../action/SendEmailAlt';
 
 const schema = z.object({
 	nombre: z.string().min(1, 'Nombre es obligatorio'),
@@ -53,12 +53,7 @@ export const ContactForm = () => {
 	const onSubmit = (data: ContactFormData) => {
 		startTransition(async () => {
 			try {
-				const formData = new FormData();
-				Object.entries(data).forEach(([key, value]) =>
-					formData.append(key, value)
-				);
-
-				const res = await sendEmail(formData);
+				const res = await sendEmail(data);
 				console.log('sendEmail response:', res);
 
 				if (!res.success) {
